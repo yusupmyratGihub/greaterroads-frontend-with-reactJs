@@ -1,7 +1,12 @@
-import React from "react";
+import React from 'react'
+import AdminUserEdit from '../../components/admins/users/admin-user-edit'
 
 const AdminUserEditPage = () => {
-  return <div>AdminUserEditPage</div>;
-};
+  return (
+    <>
+      <AdminUserEdit/>
+    </>
+  )
+}
 
-export default AdminUserEditPage;
+export default AdminUserEditPage

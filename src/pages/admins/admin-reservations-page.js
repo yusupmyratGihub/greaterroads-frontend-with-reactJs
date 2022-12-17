@@ -1,7 +1,12 @@
-import React from "react";
+import React from 'react'
+import AdminReservations from '../../components/admins/reservations/admin-reservations'
 
 const AdminReservationsPage = () => {
-  return <div>AdminReservationsPage</div>;
-};
+  return (
+    <>
+      <AdminReservations/>
+    </>
+  )
+}
 
-export default AdminReservationsPage;
+export default AdminReservationsPage

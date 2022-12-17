@@ -1,7 +1,12 @@
 import React from "react";
+import AdminReservationEdit from "../../components/admins/reservations/admin-reservation-edit";
 
-const AdminReservationsEditPage = () => {
-  return <div>AdminReservationsEditPage</div>;
+const AdminReservationEditPage = () => {
+  return (
+    <>
+      <AdminReservationEdit />
+    </>
+  );
 };
 
-export default AdminReservationsEditPage;
+export default AdminReservationEditPage;
